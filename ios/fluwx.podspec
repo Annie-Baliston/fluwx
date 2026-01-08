@@ -107,7 +107,7 @@ The capability of implementing WeChat SDKs in Flutter. With Fluwx, developers ca
 
   s.subspec 'pay' do |sp|
     # sp.dependency 'WechatOpenSDK-XCFramework','~> 2.0.5'
-    sp.vendored_frameworks = 'WechatOpenSDK-XCFramework/WechatOpenSDK.xcframework'
+    sp.vendored_frameworks = 'WechatOpenSDK/WechatOpenSDK.xcframework'
 
     pod_target_xcconfig["GCC_PREPROCESSOR_DEFINITIONS"] = "$(inherited) #{logging_status} #{scene_delegate}"
 
